@@ -1,0 +1,1 @@
+document.write('Soy javaScript y estoy linkado')
