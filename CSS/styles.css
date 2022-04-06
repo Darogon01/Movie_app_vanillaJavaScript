@@ -2,3 +2,7 @@
 body{
     background-color: aqua;
 }
+h1{
+    color: var(--ff-inter);
+    font-size: 2rem;
+}
