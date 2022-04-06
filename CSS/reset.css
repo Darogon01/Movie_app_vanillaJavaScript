@@ -35,7 +35,7 @@ body {
   min-height: 100vh;
   background-color: var(--primary-color);
   -webkit-font-smoothing: antialiased; /*Works only on Mac OS X and Chrome platform. not for mobile*/
-  line-height: var(--spacing);
+  /* line-height: var(--spacing); */
 }
 
 /*=============================================
