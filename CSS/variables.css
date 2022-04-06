@@ -11,9 +11,28 @@
 :root {
   /** ===> COLORS <=== **/
 
-  --live-indicator-shadow: #ff3b3bdc;
+  --primary-color: #1c1e32;
+  --secondary-color: #284074;
+  --scroll-bar:#3bbeb4;
+  --sroll-bar-border:#23706b;
+  --button-color: #fc3741;
+  --button-color-hov: #fc2630;
+  --txt-color: #eff8ff;
+  --txt-color-hov: #00a6c4;
 
   /** ===> TIPOGRAPHY <=== **/
 
   --ff-primary: "Baloo Bhaijaan 2", cursive;
+  --fs-lg: 2,2rem;
+  --fs-md: 1,7rem;
+  --fs-sm: 1,4rem;
+  --fs-x-sm: 1,2rem;
+
+  --fw-4: 400;
+  --fw-5: 500;
+  --fw-7: 700;
+  --fw-8: 800;
+
+  --spacing:120px
+
 }

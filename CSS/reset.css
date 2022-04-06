@@ -1,11 +1,130 @@
+@import url(./variables.css);
+
+/*=============================================
+        /**REMOVE DAFAULTS WEB             
+=============================================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 /*=============================================
         /**FONT AND RESET FONT HTML              
 =============================================*/
-@import url(./variables.css);
 
-html{
-    font-size: 62.5%;
-    font-family: var(--ff-primary)
-    
+html {
+  font-size: 62.5%;
+  font-family: var(--ff-primary);
+  scroll-behavior: smooth;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--txt-color);
+}
+body {
+  min-height: 100vh;
+  background-color: var(--primary-color);
+  -webkit-font-smoothing: antialiased; /*Works only on Mac OS X and Chrome platform. not for mobile*/
+  line-height: var(--spacing);
+}
+
+/*=============================================
+    /**RESET ANCHORS TO FUNCTION AS BOXES             
+=============================================*/
+
+a {
+  display: block;
+  text-decoration: none;
+  color: var(--txt-color);
+  font-size: inherit;
+}
+
+/*=============================================
+        /**RESET LIST           
+=============================================*/
+
+li {
+    list-style-type: none;
+  }
+
+/*=============================================
+        /**RESET PROBLEMS IAMAGES             
+=============================================*/
+
+img,
+picture,
+video,
+iframe,
+figure {
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  object-fit: cover;
+}
+
+/*=============================================
+        /**RESET FORMS AND TAGS FORMS             
+=============================================*/
+
+form,
+input,
+textarea,
+select,
+button,
+label {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  background-color: transparent;
+  color: var(--txt-color);
+  display: block;
+  /* opcional */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+button{
+    cursor: pointer;
+}
+
+/*=============================================
+        /**RESET TABLES             
+=============================================*/
+
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*=============================================
+        /**SCROLLBAR CUSTOM            
+=============================================*/
+
+::-webkit-scrollbar{
+    background:rgb(27, 76, 122);
+    border: 1px solid var(--secondary-color);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--scroll-bar);
+    border-radius: 5em;
+    border: 2.5px solid var(--sroll-bar-border)
+}
+
+
+
 
