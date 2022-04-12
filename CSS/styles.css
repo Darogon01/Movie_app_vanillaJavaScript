@@ -1,16 +1,35 @@
 @import url(./variables.css);
 
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
+.header-container {
+    padding:0 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
 }
-.nav-navbar{
+.navbar__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nav__navbar{
+    margin-right: 200px;
     display: flex;
     gap: 2rem;
     
 }
 .nav-navbar li a{
     font-size: var(--fs-lg);
+
+}
+.navbar__actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.navbar__actions-search{
+    width: 20rem;
 
 }
